@@ -1,5 +1,9 @@
+black==24.4.2
 Django==4.2.13
+django-filter==24.2
+django4-rest-swagger==1.1.0
 djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
 djoser==2.2.3
+drf-yasg==1.21.7
 python-dotenv==1.0.1
-black
