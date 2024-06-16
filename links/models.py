@@ -64,7 +64,7 @@ class Resource(models.Model):
         on_delete=models.CASCADE,
     )
 
-    Tag = models.ManyToManyField(Tag, blank=True, null=True)
+    tags = models.ManyToManyField(Tag, blank=True, null=True)
 
     class Meta:
         ordering = ["-pub_datetime"]
